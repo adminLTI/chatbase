@@ -3,12 +3,16 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/:path*",
-        destination:
-          "https://www.chatbase.co/mNJrhtPVtz8wUEBvDmUo1/help/:path*"
-      }
+        source: "/help",
+        destination: "https://chatbase.co/mNJrhtPVtz8wUEBvDmUo1/help",
+      },
+      // Needed for CSS, JS, images, etc.
+      {
+        source: "/help/:path*",
+        destination: "https://chatbase.co/mNJrhtPVtz8wUEBvDmUo1/help/:path*",
+      },
     ];
-  }
+  },
 };
 
 module.exports = nextConfig;
