@@ -6,7 +6,6 @@ const nextConfig = {
         source: "/help",
         destination: "https://chatbase.co/mNJrhtPVtz8wUEBvDmUo1/help",
       },
-      // Needed for CSS, JS, images, etc.
       {
         source: "/help/:path*",
         destination: "https://chatbase.co/mNJrhtPVtz8wUEBvDmUo1/help/:path*",
