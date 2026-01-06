@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Go to /help to open the chat.</div>;
+  return <div>Help Center is at /help</div>;
 }
