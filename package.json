@@ -1,5 +1,5 @@
 {
-  "name": "chatbase-proxy",
+  "name": "lti-chat-help-proxy",
   "private": true,
   "scripts": {
     "dev": "next dev",
